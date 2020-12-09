@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home,
 .services,
 .products,
+.gears,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -17,28 +18,37 @@
 }
 
 .services {
-  background-image: url('/images/img-2.jpg');
+  background-image: url('/images/services.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: orange;
   font-size: 100px;
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  background-image: url('/images/products.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: orange;
+  font-size: 100px;
+}
+
+.gears {
+  background-image: url('/images/gears.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: orange;
   font-size: 100px;
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url('/images/signup.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: orange;
   font-size: 100px;
 }

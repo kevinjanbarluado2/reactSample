@@ -5,41 +5,54 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>NEW PRODUCTS</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/mustang.jpg'
+              text='Squier Bullet Mustang'
+              label='Guitars'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/strat.jpg'
+              text="Squier Classic Vibe '60s Stratocaster"
+              label='Guitars'
+              path='/products'
+            />
+              <CardItem
+              src='images/gretsch.jpg'
+              text="Gretsch G5222 Electromatic Double Jet"
+              label='Guitars'
+              path='/products'
+            />
+          </ul>
+     
+          <ul className='cards__items'>
+            <CardItem
+              src='images/acoustic.jpg'
+              text='Acoustic Guitar'
+              label='Guitars'
+              path='/products'
+            />
+            <CardItem
+              src='images/electric.jpg'
+              text='Electric Guitar'
+              label='Guitars'
+              path='/products'
+            />
+            <CardItem
+              src='images/amp.jpg'
+              text='Amplifiers'
+              label='Gears'
+              path='/products'
+            />
+                   <CardItem
+              src='images/effects.jpg'
+              text='Effects'
+              label='Gears'
+              path='/products'
             />
           </ul>
         </div>

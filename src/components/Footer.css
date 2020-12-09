@@ -27,6 +27,8 @@
 .footer-subscription-heading {
   margin-bottom: 24px;
   font-size: 24px;
+  color:orange;
+  font-weight: bold;
 }
 
 .footer-subscription-text {
@@ -71,7 +73,7 @@
 }
 
 .footer-link-items > h2 {
-  color: #fff;
+  color: orange;
 }
 
 .footer-link-items a {
@@ -95,7 +97,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: orange;
   font-size: 24px;
 }
 

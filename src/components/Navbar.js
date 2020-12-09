@@ -29,8 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            KEVIN <span class='colored'>GUITARS</span>
-            <i class='fab fa-typo3' />
+            KEVIN <span className='colored'>GUITARS</span>
+            <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -43,6 +43,24 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
+                to='/products'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                New Products
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/gears'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Gears
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
                 to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
@@ -50,15 +68,7 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
+         
 
             <li>
               <Link
